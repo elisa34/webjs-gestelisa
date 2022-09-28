@@ -23,9 +23,10 @@ console.log (myElement);
 
 
 
-function clickHandler(event) {
-    console.log('Bouton clické');
-}
- 
-const btn = document.getElementById('.btn');
-btn.addEventListener('click', clickHandler);
+let buttonHome = document.querySelector(".button-home");
+let CountButtonHomeClicks = 0;
+
+buttonHome.addEventListener("click", function() {
+  CountButtonHomeClicks += 1;
+  console.log(CountButtonHomeClicks);
+}); 
