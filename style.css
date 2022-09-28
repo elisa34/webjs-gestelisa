@@ -3,10 +3,9 @@
     width: 100%;
     flex-flow: column-reverse;
     display: flex
+    
     } 
     
     .box{
         width: 100%;
-        text-align: center;
-    
     }
