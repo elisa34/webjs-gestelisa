@@ -30,3 +30,7 @@ buttonHome.addEventListener("click", function() {
   CountButtonHomeClicks += 1;
   console.log(CountButtonHomeClicks);
 }); 
+
+localStorage.setItem("prenom","elisa");
+localStorage.getItem("prenom");
+
