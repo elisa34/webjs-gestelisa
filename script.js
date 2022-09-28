@@ -1,2 +1,2 @@
-const myAnchor = document.getElementsByClassName('div');
-console.log (myAnchor);
+const myElement = document.getElementsByTagName('div');
+console.log (myElement);
